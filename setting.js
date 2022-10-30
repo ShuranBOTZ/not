@@ -38,7 +38,7 @@ global.act = {
 }
 
 global.thumb = fs.readFileSync('./lib/crizzy.jpg')
-global.crizzy = { url: "https://g.top4top.io/p_2443v88g61.jpg"}
+global.crizzy = { url: "-"}
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
